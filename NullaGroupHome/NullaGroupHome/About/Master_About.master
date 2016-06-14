@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Master_About.master.cs" Inherits="NullaGroupHome.About.Master_About" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+        #AboutMenu {
+            margin-left: 220px;
+            margin-right: 700px;
+            margin-top: 50px;
+            background: black;
+        }
+
+            #AboutMenu a {
+                font-family: "微软雅黑";
+                font-size: 120%;
+                margin-left: 0.4cm;
+                margin-right: 0.4cm;
+                text-decoration: none;
+                color: white;
+            }
+    </style>
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="AboutMenu" style="border-width: 1px; border-radius: 3px">
+        <a href="/About/Index.aspx">简 介</a>
+        <a href="/About/Members.aspx">成 员</a>
+        <a href="/About/Contact.aspx">联系方式</a>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</asp:Content>
