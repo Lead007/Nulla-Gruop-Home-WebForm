@@ -7,10 +7,10 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace NullaGroupHome.About {
+namespace NullaGroupHome.About.Administrator.Introduction {
     
     
-    public partial class Master_About {
+    public partial class Master_Administrator {
         
         /// <summary>
         /// head 控件。

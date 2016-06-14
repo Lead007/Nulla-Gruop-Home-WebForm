@@ -66,9 +66,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About\Administrator\Figure\NavyFlash.jpg" />
+    <Content Include="About\Administrator\Figure\PrimeBlade.jpg" />
+    <Content Include="About\Administrator\Figure\不穿女装的玛秾.jpg" />
+    <Content Include="About\Administrator\Figure\古明地小鸟.jpg" />
+    <Content Include="About\Administrator\Figure\女仆长的PAD.jpg" />
+    <Content Include="About\Administrator\Figure\小鸟小姐.jpg" />
+    <Content Include="About\Administrator\Figure\还有两年的高中狗.jpg" />
+    <Content Include="About\Administrator\Introduction\PrimeBlade.aspx" />
+    <Content Include="About\Contact.aspx" />
+    <Content Include="About\Index.aspx" />
+    <Content Include="About\Members.aspx" />
     <Content Include="packages.config" />
     <Content Include="Master.Master" />
     <Content Include="About\Master_About.master" />
+    <Content Include="About\Administrator\Introduction\Master_Administrator.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,15 +89,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About\Contact.aspx" />
-    <Content Include="About\Index.aspx" />
-    <Content Include="About\Members.aspx" />
     <Content Include="Images\Nulla.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="Product\Index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About\Administrator\Introduction\Master_Administrator.master.cs">
+      <DependentUpon>Master_Administrator.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About\Administrator\Introduction\Master_Administrator.master.designer.cs">
+      <DependentUpon>Master_Administrator.master</DependentUpon>
+    </Compile>
+    <Compile Include="About\Administrator\Introduction\PrimeBlade.aspx.cs">
+      <DependentUpon>PrimeBlade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About\Administrator\Introduction\PrimeBlade.aspx.designer.cs">
+      <DependentUpon>PrimeBlade.aspx</DependentUpon>
+    </Compile>
     <Compile Include="About\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -114,6 +137,7 @@
     <Compile Include="About\Members.aspx.designer.cs">
       <DependentUpon>Members.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Helper\TitleHelper.cs" />
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -136,8 +160,23 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Product\BetterHUD\" />
+    <Folder Include="Product\KeyCraft\1.7.10\" />
+    <Folder Include="Product\KeyCraft\1.8.9\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

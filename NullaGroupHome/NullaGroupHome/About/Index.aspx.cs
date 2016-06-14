@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using NullaGroupHome.Helper;
 
 namespace NullaGroupHome.About
 {
@@ -11,7 +12,7 @@ namespace NullaGroupHome.About
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.Title = "关于" + NullaGroupHome.Master.Title;
+            this.SetTitle("关于");
         }
     }
 }

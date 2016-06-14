@@ -6,13 +6,13 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using NullaGroupHome.Helper;
 
-namespace NullaGroupHome
+namespace NullaGroupHome.About.Administrator.Introduction
 {
-    public partial class Index : System.Web.UI.Page
+    public partial class PrimeBlade : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.SetTitle("主页");
+            this.SetTitle("管理员详情");
         }
     }
 }

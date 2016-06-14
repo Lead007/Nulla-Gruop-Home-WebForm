@@ -11,9 +11,7 @@ namespace NullaGroupHome
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            LabelFoot.Text = DateTime.Now.Year + Title;
+            LabelFoot.Text = DateTime.Now.Year + Properties.Resources.Title;
         }
-
-        public static string Title = " - Nulla，国内最业余的业余Minecraft Mod制作组";
     }
 }

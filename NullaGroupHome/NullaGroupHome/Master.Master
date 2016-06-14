@@ -9,17 +9,14 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-        a.LeftMargin {
-            margin-left: 181px;
-        }
-
         #Text {
             margin-left: 201px;
             margin-right: 140px;
+            margin-top: 40px;
             font-weight: bold;
         }
 
-            #Text h3 {
+            #Text h3, h4, h5, h6，dl {
                 margin-bottom: 10px;
                 font-family: "黑体";
             }
@@ -31,6 +28,16 @@
                 white-space: pre-wrap;
             }
 
+        #Menu ul {
+            background-color: blue;
+            float: left;
+        }
+
+        #Menu li {
+            float: left;
+            list-style: none;
+        }
+
         #Menu a {
             margin-left: 0.5cm;
             margin-right: 0.5cm;
@@ -38,13 +45,10 @@
             font-family: "微软雅黑";
             color: white;
             text-decoration: none;
+            vertical-align: top;
         }
 
         p.Footer {
-            font-family: "微软雅黑";
-        }
-
-        div.H {
             font-family: "微软雅黑";
         }
     </style>
@@ -52,17 +56,22 @@
 <body>
     <form id="form1" runat="server">
         <div id="Menu">
-            <div style="margin-left: 200px; background-color: blue">
-                <a href="/Index.aspx">主 页</a>
-                <a href="/Product/Index.aspx">作 品</a>
-                <a href="/About/Index.aspx">关 于</a>
-            </div>
-            <a href="/Index.aspx" target="_blank">
+            <a href="/Index.aspx" target="_blank" style="margin-left: 0; margin-bottom: 0; float: left">
                 <asp:Image runat="server" Height="120px" ImageUrl="~/Images/Nulla.jpg" Width="181px" ToolTip="Nulla，国内最业余的业余Minecraft Mod制作组。  ——小鸟小姐，Nulla小组组长" />
             </a>
+            <ul>
+                <li><a href="/Index.aspx">主 页</a></li>
+                <li><a href="/Product/Index.aspx">作 品</a></li>
+                <li><a href="/About/Index.aspx" style="margin-right: 2cm">关 于</a></li>
+            </ul>
+            <br />
         </div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
+        <div>
+            <br />
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
         <div style="margin-top: 120px">
             <hr />
             <footer>

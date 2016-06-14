@@ -1,13 +1,23 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Master_About.master.cs" Inherits="NullaGroupHome.About.Master_About" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
         #AboutMenu {
-            margin-left: 220px;
-            margin-right: 700px;
+            margin-left: 200px;
             margin-top: 50px;
-            background: black;
         }
+
+            #AboutMenu ul {
+                background-color: black;
+                float: left;
+            }
+
+            #AboutMenu li {
+                float: left;
+                list-style: none;
+            }
 
             #AboutMenu a {
                 font-family: "微软雅黑";
@@ -21,12 +31,17 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="AboutMenu" style="border-width: 1px; border-radius: 3px">
-        <a href="/About/Index.aspx">简 介</a>
-        <a href="/About/Members.aspx">成 员</a>
-        <a href="/About/Contact.aspx">联系方式</a>
+    <div style="border-width: 1px; border-radius: 3px; border-color: blue">
+        <div id="AboutMenu">
+            <ul>
+                <li><a href="/About/Index.aspx">简 介</a></li>
+                <li><a href="/About/Members.aspx">成 员</a></li>
+                <li><a href="/About/Contact.aspx">联系方式</a></li>
+            </ul>
+        </div>
+        <br/>
+        <br/>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-
 </asp:Content>
