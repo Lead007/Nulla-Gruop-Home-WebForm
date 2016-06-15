@@ -13,15 +13,17 @@
             <dt>2014年12月14号</dt>
             <dd>组长小鸟小姐建立QQ群，宣告Nulla小组成立。</dd>
             <dt>2015年11月23日</dt>
-            <dd>Keycraft-Demo发布。</dd>
+            <dd>Keycraft-Demo在群内发布。</dd>
             <dt>2015年12月13日</dt>
             <dd>BetterHUD发布。</dd>
             <dt>2015年12月14日</dt>
-            <dd>一周年组祭，举办了一次UHC PVP，以群主小鸟小姐获胜告终。</dd>
+            <dd>一周年组祭，举办了一次UHC PVP，以群主小鸟小姐获胜告终。<a href="http://www.bilibili.com/video/av3393075/">视频链接（PrimeBlade视角）</a></dd>
             <dt>2015年12月22日</dt>
             <dd>组长小鸟小姐由于个人原因退群，管理员古明地小鸟升为群主。</dd>
             <dt>2016年1月31日</dt>
             <dd>前组长小鸟小姐回归。</dd>
+            <dt>2016年2月1日</dt>
+            <dd>KeyCraft（Pre版）在MCBBS<a href="http://www.mcbbs.net/forum.php?mod=viewthread&tid=549670&highlight=keycraft" target="_blank">发布</a>。</dd>
         </dl>
     </div>
 </asp:Content>

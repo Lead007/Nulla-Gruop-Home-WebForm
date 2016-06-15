@@ -15,5 +15,13 @@ namespace NullaGroupHome.Helper
         {
             page.Title = title + Properties.Resources.Title;
         }
+
+        /// <summary>设置KeyCraft相关页的标题</summary>
+        /// <param name="title">标题</param>
+        /// <param name="page">设置的页面</param>
+        public static void SetKeyCraftTitle(this Page page, string title)
+        {
+            page.Title = title + Properties.Resources.KeyCraftTitle;
+        }
     }
 }

@@ -7,10 +7,10 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace NullaGroupHome {
+namespace NullaGroupHome.Product.KeyCraft {
     
     
-    public partial class Master {
+    public partial class Master_KeyCraft {
         
         /// <summary>
         /// head 控件。

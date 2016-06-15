@@ -1,33 +1,12 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="NullaGroupHome.Master" %>
+﻿<%@ Master Language="C#" MasterPageFile="~/Footer.Master" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="NullaGroupHome.Master" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link rel="stylesheet" href="/CSS/Text.css" type="text/css"/>
+    <link rel="stylesheet" href="/CSS/Icon.css" type="text/css"/>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-        #Text {
-            margin-left: 201px;
-            margin-right: 140px;
-            margin-top: 40px;
-            font-weight: bold;
-        }
-
-            #Text h3, h4, h5, h6，dl {
-                margin-bottom: 10px;
-                font-family: "黑体";
-            }
-
-            #Text p {
-                margin-bottom: 40px;
-                line-height: 25px;
-                font-family: "仿宋";
-                white-space: pre-wrap;
-            }
-
         #Menu ul {
             background-color: blue;
             float: left;
@@ -47,42 +26,25 @@
             text-decoration: none;
             vertical-align: top;
         }
-
-        p.Footer {
-            font-family: "微软雅黑";
-        }
     </style>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div id="Menu">
-            <a href="/Index.aspx" target="_blank" style="margin-left: 0; margin-bottom: 0; float: left">
-                <asp:Image runat="server" Height="120px" ImageUrl="~/Images/Nulla.jpg" Width="181px" ToolTip="Nulla，国内最业余的业余Minecraft Mod制作组。  ——小鸟小姐，Nulla小组组长" />
-            </a>
-            <ul>
-                <li><a href="/Index.aspx">主 页</a></li>
-                <li><a href="/Product/Index.aspx">作 品</a></li>
-                <li><a href="/About/Index.aspx" style="margin-right: 2cm">关 于</a></li>
-            </ul>
-            <br />
-        </div>
-        <div>
-            <br />
-            <br />
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-        <div style="margin-top: 120px">
-            <hr />
-            <footer>
-                <p class="Footer">
-                    &copy; 
-            <asp:Label ID="LabelFoot" runat="server"></asp:Label>
-                </p>
-            </footer>
-        </div>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="Menu">
+        <a href="/Index.aspx" target="_blank" class="Icon">
+            <asp:Image runat="server" Height="120px" ImageUrl="~/Images/Nulla.jpg" Width="181px" ToolTip="Nulla，国内最业余的业余Minecraft Mod制作组。  ——小鸟小姐，Nulla小组组长" />
+        </a>
+        <ul>
+            <li><a href="/Index.aspx">主 页</a></li>
+            <li><a href="/Product/Index.aspx">作 品</a></li>
+            <li><a href="/About/Index.aspx" style="margin-right: 2cm">关 于</a></li>
+        </ul>
+        <br />
+    </div>
+    <div>
+        <br />
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
 
-    </form>
-
-</body>
-</html>
+</asp:Content>

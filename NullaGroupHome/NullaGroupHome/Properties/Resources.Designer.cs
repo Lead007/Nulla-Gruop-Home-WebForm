@@ -61,7 +61,16 @@ namespace NullaGroupHome.Properties {
         }
         
         /// <summary>
-        ///   查找类似 - Nulla，国内最业余的业余Minecraft Mod制作组 的本地化字符串。
+        ///   查找类似  - KeyCraft，和Key社的深度交流 的本地化字符串。
+        /// </summary>
+        internal static string KeyCraftTitle {
+            get {
+                return ResourceManager.GetString("KeyCraftTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似  - Nulla，国内最业余的业余Minecraft Mod制作组 的本地化字符串。
         /// </summary>
         internal static string Title {
             get {

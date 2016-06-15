@@ -117,8 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="KeyCraftTitle" xml:space="preserve">
+    <value> - KeyCraft，和Key社的深度交流</value>
+    <comment>KeyCraft相关页的标题</comment>
+  </data>
   <data name="Title" xml:space="preserve">
-    <value>- Nulla，国内最业余的业余Minecraft Mod制作组</value>
-    <comment>网站的标题</comment>
+    <value> - Nulla，国内最业余的业余Minecraft Mod制作组</value>
+    <comment>主页的标题</comment>
   </data>
 </root>
