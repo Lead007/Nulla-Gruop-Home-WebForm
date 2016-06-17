@@ -61,6 +61,15 @@ namespace NullaGroupHome.Properties {
         }
         
         /// <summary>
+        ///   查找类似  - BetterHUD，更直接地数据化显示。 的本地化字符串。
+        /// </summary>
+        internal static string BetterHUDTitle {
+            get {
+                return ResourceManager.GetString("BetterHUDTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似  - KeyCraft，和Key社的深度交流 的本地化字符串。
         /// </summary>
         internal static string KeyCraftTitle {

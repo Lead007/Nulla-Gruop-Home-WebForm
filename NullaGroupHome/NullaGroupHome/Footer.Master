@@ -9,6 +9,7 @@
     <style>
         p.Footer {
             font-family: "微软雅黑";
+            margin-left: 0.5cm;
         }
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">

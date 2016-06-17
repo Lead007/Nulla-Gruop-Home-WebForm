@@ -11,7 +11,7 @@ namespace NullaGroupHome.Product.KeyCraft
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ImageIcon.ToolTip = Properties.Resources.KeyCraftTitle;
         }
     }
 }

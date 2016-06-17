@@ -8,8 +8,8 @@
         <hr/>
         <p>请选择对应的Minecraft版本下载：</p>
         <ul>
-            <li><a>1.7.10</a></li>
-            <li><a>1.8.9</a></li>
+            <li><a href="1.7.10/Download.aspx">1.7.10</a></li>
+            <li><a href="1.8.9/Download.aspx">1.8.9</a></li>
         </ul>
     </div>
 </asp:Content>

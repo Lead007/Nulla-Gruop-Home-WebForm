@@ -6,10 +6,10 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderMenu" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMenu" runat="server">
     <div id="ProductMenu">
         <a href="Index.aspx" target="_blank" class="Icon">
-            <asp:Image runat="server" Height="100px" ImageUrl="~/Product/KeyCraft/Images/Icon.jpg" Width="181px" ToolTip="KeyCraft，和Key社的深度交流。" />
+            <asp:Image runat="server" Height="100px" ImageUrl="~/Product/KeyCraft/Images/Icon.jpg" Width="181px" ID="ImageIcon" />
         </a>
         <ul>
             <li><a href="Index.aspx">简 介</a></li>
@@ -19,7 +19,7 @@
         </ul>
     </div>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
         <br/>
         <br/>
