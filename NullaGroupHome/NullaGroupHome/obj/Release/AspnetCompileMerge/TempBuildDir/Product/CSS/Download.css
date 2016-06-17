@@ -1,0 +1,52 @@
+﻿#Download {
+    margin-left: 220px;
+    margin-right: 140px;
+    margin-top: 40px;
+    background-color: lightyellow;
+    border: 0;
+}
+
+    #Download td {
+        font-family: "仿宋";
+        padding-left: 0.2cm;
+        padding-top: 0.1cm;
+        padding-bottom: 0.1cm;
+    }
+
+    #Download a {
+        text-decoration: none;
+    }
+
+#DownloadTitle {
+    background-color: black;
+}
+
+    #DownloadTitle td {
+        color: white;
+        font-weight: bold;
+        font-family: "微软雅黑";
+        font-size: large;
+        padding-left: 0.1cm;
+        padding-top: 0.2cm;
+        padding-bottom: 0.2cm;
+    }
+
+td.Type {
+    width: 10%;
+}
+
+td.Name {
+    width: 45%;
+}
+
+td.Size {
+    width: 15%;
+}
+
+td.Uploaded {
+    width: 18%;
+}
+
+td.GameVersion {
+    width: 30%;
+}

@@ -13,6 +13,7 @@ namespace NullaGroupHome.About
         protected void Page_Load(object sender, EventArgs e)
         {
             this.SetTitle("关于");
+            this.GetMaster<Footer>().AddAuthor(Author.PrimeBlade);
         }
     }
 }

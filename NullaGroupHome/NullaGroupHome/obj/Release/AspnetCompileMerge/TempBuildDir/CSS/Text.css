@@ -1,0 +1,18 @@
+﻿#Text {
+    margin-left: 220px;
+    margin-right: 140px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+    #Text h3, h4, h5, h6, dl {
+        margin-bottom: 10px;
+        font-family: "黑体";
+    }
+
+    #Text p, dt, dd {
+        margin-bottom: 40px;
+        line-height: 25px;
+        font-family: "仿宋";
+        white-space: pre-wrap;
+    }

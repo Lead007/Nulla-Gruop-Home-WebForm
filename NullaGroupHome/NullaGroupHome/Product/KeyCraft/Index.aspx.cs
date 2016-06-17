@@ -13,6 +13,7 @@ namespace NullaGroupHome.Product.KeyCraft
         protected void Page_Load(object sender, EventArgs e)
         {
             this.SetKeyCraftTitle("主页");
+            this.GetMaster<Footer>().AddAuthor(Author.PrimeBlade);
         }
     }
 }

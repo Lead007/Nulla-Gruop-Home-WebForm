@@ -13,6 +13,7 @@ namespace NullaGroupHome.Product.KeyCraft._1._7._10
         protected void Page_Load(object sender, EventArgs e)
         {
             this.SetKeyCraftTitle("下载（1.7.10）");
+            this.GetMaster<Footer>().AddAuthor(Author.PrimeBlade);
         }
     }
 }

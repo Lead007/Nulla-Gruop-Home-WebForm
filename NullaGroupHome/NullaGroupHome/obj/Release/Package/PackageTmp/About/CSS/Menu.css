@@ -1,0 +1,23 @@
+﻿#AboutMenu {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+    #AboutMenu ul {
+        background-color: black;
+        float: left;
+    }
+
+    #AboutMenu li {
+        float: left;
+        list-style: none;
+    }
+
+    #AboutMenu a {
+        font-family: "微软雅黑";
+        font-size: 120%;
+        margin-left: 0.4cm;
+        margin-right: 0.4cm;
+        text-decoration: none;
+        color: white;
+    }

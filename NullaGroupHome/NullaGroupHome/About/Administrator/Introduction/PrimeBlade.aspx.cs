@@ -13,6 +13,7 @@ namespace NullaGroupHome.About.Administrator.Introduction
         protected void Page_Load(object sender, EventArgs e)
         {
             this.SetTitle("成员详情");
+            this.GetMaster<Footer>().AddAuthor(Author.PrimeBlade);
         }
     }
 }

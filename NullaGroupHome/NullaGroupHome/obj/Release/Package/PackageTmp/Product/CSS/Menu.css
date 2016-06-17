@@ -1,0 +1,19 @@
+﻿#ProductMenu ul {
+    background-color: lightyellow;
+    float: left;
+}
+
+#ProductMenu li {
+    float: left;
+    list-style: none;
+}
+
+#ProductMenu a {
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    font-size: 200%;
+    font-family: "微软雅黑";
+    color: black;
+    text-decoration: none;
+    vertical-align: top;
+}

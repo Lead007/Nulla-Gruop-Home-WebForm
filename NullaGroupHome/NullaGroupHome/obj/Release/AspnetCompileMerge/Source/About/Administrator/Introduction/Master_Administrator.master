@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master.master" AutoEventWireup="true" CodeBehind="Master_Administrator.master.cs" Inherits="NullaGroupHome.About.Administrator.Introduction.Master_Administrator" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="Text">
+            <footer style="text-align: right; margin-right: 80px"><a href="/About/Members.aspx">&lt;&lt;回到群成员页</a></footer>
+        </div>
+    </div>
+</asp:Content>

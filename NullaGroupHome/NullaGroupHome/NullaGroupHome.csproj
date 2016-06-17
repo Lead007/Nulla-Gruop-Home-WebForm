@@ -69,17 +69,17 @@
     <Content Include="About\Administrator\Figure\NavyFlash.jpg" />
     <Content Include="About\Administrator\Figure\PrimeBlade.jpg" />
     <Content Include="About\Administrator\Figure\不穿女装的玛秾.jpg" />
-    <Content Include="About\Administrator\Figure\古明地小鸟.jpg" />
+    <Content Include="About\Administrator\Figure\小大圣.jpg" />
     <Content Include="About\Administrator\Figure\女仆长的PAD.jpg" />
     <Content Include="About\Administrator\Figure\小鸟小姐.jpg" />
-    <Content Include="About\Administrator\Figure\还有两年的高中狗.jpg" />
-    <Content Include="About\Administrator\Introduction\Kotori.aspx" />
-    <Content Include="About\Administrator\Introduction\manageryzy.aspx" />
+    <Content Include="About\Administrator\Figure\SalimTerryLi.jpg" />
+    <Content Include="About\Administrator\Introduction\小鸟小姐.aspx" />
+    <Content Include="About\Administrator\Introduction\女仆长的PAD.aspx" />
     <Content Include="About\Administrator\Introduction\NavyFlash.aspx" />
     <Content Include="About\Administrator\Introduction\PrimeBlade.aspx" />
     <Content Include="About\Administrator\Introduction\SalimTerryLi.aspx" />
-    <Content Include="About\Administrator\Introduction\Shedarshian.aspx" />
-    <Content Include="About\Administrator\Introduction\xfgryujk.aspx" />
+    <Content Include="About\Administrator\Introduction\小大圣.aspx" />
+    <Content Include="About\Administrator\Introduction\不穿女装的玛秾.aspx" />
     <Content Include="About\Contact.aspx" />
     <Content Include="About\CSS\Menu.css" />
     <Content Include="About\Index.aspx" />
@@ -89,12 +89,13 @@
     <Content Include="packages.config" />
     <Content Include="About\Master_About.master" />
     <Content Include="About\Administrator\Introduction\Master_Administrator.master" />
-    <Content Include="Product\BetterHUD\Download.aspx" />
-    <Content Include="Product\BetterHUD\Files\BetterHUD - 1.1.jar" />
-    <Content Include="Product\BetterHUD\Images\Icon.jpg" />
-    <Content Include="Product\BetterHUD\Index.aspx" />
+    <Content Include="Product\BetterHUD\1.7.10\Download.aspx" />
+    <Content Include="Product\BetterHUD\1.7.10\Files\BetterHUD - 1.1.jar" />
+    <Content Include="Product\BetterHUD\1.7.10\Images\Icon.jpg" />
+    <Content Include="Product\BetterHUD\1.7.10\Index.aspx" />
     <Content Include="Product\CSS\Download.css" />
     <Content Include="Product\CSS\Menu.css" />
+    <Content Include="Product\CSS\ProductList.css" />
     <Content Include="Product\KeyCraft\1.7.10\Download.aspx" />
     <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.1.3β.jar" />
     <Content Include="Product\KeyCraft\1.8.9\Download.aspx" />
@@ -105,7 +106,9 @@
     <Content Include="Master.master" />
     <Content Include="Product\KeyCraft\Master_KeyCraft.Master" />
     <Content Include="Product\Master_Product.Master" />
-    <Content Include="Product\BetterHUD\Master_BetterHUD.Master" />
+    <Content Include="Product\BetterHUD\1.7.10\Master_BetterHUD.Master" />
+    <Content Include="About\Administrator\Introduction\Master_Administrator2.master" />
+    <None Include="Properties\PublishProfiles\config.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -118,22 +121,31 @@
     <Content Include="Index.aspx" />
     <Content Include="Product\Index.aspx" />
     <Content Include="Product\Scripts\DownloadTable.js" />
+    <Content Include="Scripts\UrlToMember\小大圣.js" />
+    <Content Include="Scripts\UrlToMember\小鸟小姐.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About\Administrator\Introduction\Kotori.aspx.cs">
-      <DependentUpon>Kotori.aspx</DependentUpon>
+    <Compile Include="About\Administrator\Introduction\Master_Administrator2.master.cs">
+      <DependentUpon>Master_Administrator2.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About\Administrator\Introduction\Kotori.aspx.designer.cs">
-      <DependentUpon>Kotori.aspx</DependentUpon>
+    <Compile Include="About\Administrator\Introduction\Master_Administrator2.master.designer.cs">
+      <DependentUpon>Master_Administrator2.master</DependentUpon>
     </Compile>
-    <Compile Include="About\Administrator\Introduction\manageryzy.aspx.cs">
-      <DependentUpon>manageryzy.aspx</DependentUpon>
+    <Compile Include="About\Administrator\Introduction\小鸟小姐.aspx.cs">
+      <DependentUpon>小鸟小姐.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About\Administrator\Introduction\manageryzy.aspx.designer.cs">
-      <DependentUpon>manageryzy.aspx</DependentUpon>
+    <Compile Include="About\Administrator\Introduction\小鸟小姐.aspx.designer.cs">
+      <DependentUpon>小鸟小姐.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About\Administrator\Introduction\女仆长的PAD.aspx.cs">
+      <DependentUpon>女仆长的PAD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About\Administrator\Introduction\女仆长的PAD.aspx.designer.cs">
+      <DependentUpon>女仆长的PAD.aspx</DependentUpon>
     </Compile>
     <Compile Include="About\Administrator\Introduction\Master_Administrator.master.cs">
       <DependentUpon>Master_Administrator.master</DependentUpon>
@@ -163,19 +175,19 @@
     <Compile Include="About\Administrator\Introduction\SalimTerryLi.aspx.designer.cs">
       <DependentUpon>SalimTerryLi.aspx</DependentUpon>
     </Compile>
-    <Compile Include="About\Administrator\Introduction\Shedarshian.aspx.cs">
-      <DependentUpon>Shedarshian.aspx</DependentUpon>
+    <Compile Include="About\Administrator\Introduction\小大圣.aspx.cs">
+      <DependentUpon>小大圣.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About\Administrator\Introduction\Shedarshian.aspx.designer.cs">
-      <DependentUpon>Shedarshian.aspx</DependentUpon>
+    <Compile Include="About\Administrator\Introduction\小大圣.aspx.designer.cs">
+      <DependentUpon>小大圣.aspx</DependentUpon>
     </Compile>
-    <Compile Include="About\Administrator\Introduction\xfgryujk.aspx.cs">
-      <DependentUpon>xfgryujk.aspx</DependentUpon>
+    <Compile Include="About\Administrator\Introduction\不穿女装的玛秾.aspx.cs">
+      <DependentUpon>不穿女装的玛秾.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About\Administrator\Introduction\xfgryujk.aspx.designer.cs">
-      <DependentUpon>xfgryujk.aspx</DependentUpon>
+    <Compile Include="About\Administrator\Introduction\不穿女装的玛秾.aspx.designer.cs">
+      <DependentUpon>不穿女装的玛秾.aspx</DependentUpon>
     </Compile>
     <Compile Include="About\Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -212,6 +224,7 @@
     <Compile Include="Footer.Master.designer.cs">
       <DependentUpon>Footer.Master</DependentUpon>
     </Compile>
+    <Compile Include="Helper\MasterHelper.cs" />
     <Compile Include="Helper\TitleHelper.cs" />
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -227,25 +240,25 @@
     <Compile Include="Master.master.designer.cs">
       <DependentUpon>Master.master</DependentUpon>
     </Compile>
-    <Compile Include="Product\BetterHUD\Download.aspx.cs">
+    <Compile Include="Product\BetterHUD\1.7.10\Download.aspx.cs">
       <DependentUpon>Download.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Product\BetterHUD\Download.aspx.designer.cs">
+    <Compile Include="Product\BetterHUD\1.7.10\Download.aspx.designer.cs">
       <DependentUpon>Download.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Product\BetterHUD\Index.aspx.cs">
+    <Compile Include="Product\BetterHUD\1.7.10\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Product\BetterHUD\Index.aspx.designer.cs">
+    <Compile Include="Product\BetterHUD\1.7.10\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Product\BetterHUD\Master_BetterHUD.Master.cs">
+    <Compile Include="Product\BetterHUD\1.7.10\Master_BetterHUD.Master.cs">
       <DependentUpon>Master_BetterHUD.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Product\BetterHUD\Master_BetterHUD.Master.designer.cs">
+    <Compile Include="Product\BetterHUD\1.7.10\Master_BetterHUD.Master.designer.cs">
       <DependentUpon>Master_BetterHUD.Master</DependentUpon>
     </Compile>
     <Compile Include="Product\Index.aspx.cs">
@@ -312,6 +325,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Product\KeyCraft\1.8.9\Files\" />
+    <Folder Include="Product\KotoriTech\1.7.10\" />
+    <Folder Include="Product\StoneArmor\1.7.10\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
