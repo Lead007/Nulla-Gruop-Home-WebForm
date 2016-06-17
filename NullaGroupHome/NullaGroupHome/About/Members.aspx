@@ -42,49 +42,49 @@
     <div id="Text">
         <h3>成员</h3>
         <hr />
-        <p>现在群内已经有了69名成员。由于成员变动较为频繁，在此不更新，请自行加群查看。</p>
+        <p>现在群内已经有了70名成员。由于成员变动较为频繁，在此不更新，请自行加群查看。</p>
         <h4>管理员</h4>
         <hr />
     </div>
     <div id="Member">
         <ul>
             <li>
-                <a href="Administrator/Introduction/Kotori.aspx">
+                <a>
                     <img src="Administrator/Figure/小鸟小姐.jpg" />
                     <br />
                     <p>小鸟小姐</p>
                 </a>
             </li>
             <li>
-                <a href="Administrator/Introduction/Shedarshian.aspx">
+                <a>
                     <img src="Administrator/Figure/古明地小鸟.jpg" />
                     <br />
                     <p>古明地小鸟</p>
                 </a>
             </li>
             <li>
-                <a href="Administrator/Introduction/xfgryujk.aspx">
+                <a>
                     <img src="Administrator/Figure/不穿女装的玛秾.jpg" />
                     <br />
                     <p>不穿女装的玛秾</p>
                 </a>
             </li>
             <li>
-                <a href="Administrator/Introduction/manageryzy.aspx">
+                <a>
                     <img src="Administrator/Figure/女仆长的PAD.jpg" />
                     <br />
                     <p>女仆长的PAD</p>
                 </a>
             </li>
             <li>
-                <a href="Administrator/Introduction/NavyFlash.aspx">
+                <a>
                     <img src="Administrator/Figure/NavyFlash.jpg" />
                     <br />
                     <p>NavyFlash</p>
                 </a>
             </li>
             <li>
-                <a href="Administrator/Introduction/SalimTerryLi.aspx">
+                <a>
                     <img src="Administrator/Figure/还有两年的高中狗.jpg" />
                     <br />
                     <p>还有两年的高中狗</p>

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using NullaGroupHome.Helper;
 
 namespace NullaGroupHome.About.Administrator.Introduction
 {
@@ -12,7 +11,7 @@ namespace NullaGroupHome.About.Administrator.Introduction
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

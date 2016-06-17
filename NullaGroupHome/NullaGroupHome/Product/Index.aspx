@@ -8,8 +8,7 @@
         <p>以下为Nulla小组制作的作品列表：</p>
         <ul>
             <li><a href="KeyCraft/Index.aspx">KeyCraft</a></li>
-            <li><a href="BetterHUD/Index.aspx">Better HUD</a></li>
-            <li><a></a>Stone Armor</li>
+            <li><a>BetterHUD</a></li>
             <li><a>KotoriTech</a></li>
         </ul>
     </div>
