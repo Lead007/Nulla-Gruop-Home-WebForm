@@ -59,7 +59,7 @@
                 <a href="Administrator/Introduction/Shedarshian.aspx">
                     <img src="Administrator/Figure/古明地小鸟.jpg" />
                     <br />
-                    <p>古明地小鸟</p>
+                    <p>小大圣</p>
                 </a>
             </li>
             <li>
