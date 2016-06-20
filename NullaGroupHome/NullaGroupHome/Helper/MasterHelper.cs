@@ -22,5 +22,12 @@ namespace NullaGroupHome.Helper
             }
             return master as T;
         }
+
+        public static string CurrentPageName(this MasterPage master)
+        {
+            var url = master.Request.FilePath;
+            var filename = url.Substring(url.LastIndexOf('/') + 1);
+            return filename.Substring(0, filename.LastIndexOf('.'));
+        }
     }
 }

@@ -85,9 +85,9 @@
             </li>
             <li>
                 <a href="Administrator/Introduction/SalimTerryLi.aspx">
-                    <img src="Administrator/Figure/SalimTerryLi.jpg" />
+                    <img src="Administrator/Figure/SalimTerryLi.jpg"/>
                     <br />
-                    <p>还有两年的高中狗</p>
+                    <p>SalimTerryLi</p>
                 </a>
             </li>
             <li>

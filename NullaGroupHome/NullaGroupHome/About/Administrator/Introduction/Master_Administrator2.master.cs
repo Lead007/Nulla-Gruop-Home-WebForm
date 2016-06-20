@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using NullaGroupHome.Helper;
 
 namespace NullaGroupHome.About.Administrator.Introduction
 {
@@ -11,11 +12,10 @@ namespace NullaGroupHome.About.Administrator.Introduction
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var url = this.Request.FilePath;
-            var filename = url.Substring(url.LastIndexOf("/") + 1);
-            var name = filename.Substring(0, filename.LastIndexOf("."));
+            var name = this.CurrentPageName();
             ImageFigure.ImageUrl = "~/About/Administrator/Figure/" + name + ".jpg";
             LabelName.Text = name;
+            LabelStatus.Text = name == Author.小鸟小姐.ToString() ? "组长" : "管理员";
         }
     }
 }

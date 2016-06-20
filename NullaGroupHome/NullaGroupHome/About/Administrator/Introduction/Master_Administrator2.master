@@ -8,8 +8,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="Text">
         <h3 style="vertical-align: top">
-            <asp:Image ID="ImageFigure" runat="server" ImageUrl="~/About/Administrator/Figure/NavyFlash.jpg" Style="vertical-align: top" Height="100px" Width="100px" />
-            &nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="LabelName" runat="server"></asp:Label>，管理员
+            <asp:Image ID="ImageFigure" runat="server" Style="vertical-align: top" Height="100px" Width="100px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="LabelName" runat="server"></asp:Label>，<asp:Label ID="LabelStatus" runat="server" Text="Label"></asp:Label>
         </h3>
         <hr />
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

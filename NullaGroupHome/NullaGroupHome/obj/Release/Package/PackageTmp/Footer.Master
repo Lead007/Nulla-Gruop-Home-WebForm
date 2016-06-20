@@ -27,7 +27,8 @@
                 <p class="Footer">
                     &copy; 
             <asp:Label ID="LabelFoot" runat="server"></asp:Label>
-                </p>
+                    <a href="/About/Index.aspx" target="_blank">关于我们</a>
+                    <asp:Button ID="ButtonEdit" runat="server" Text="编辑此页" OnClick="ButtonEdit_Click" Enabled="False" /></p>
                 <p class="Footer">
                     <asp:Label ID="LabelAuthor" runat="server" Text="本页作者： "></asp:Label>
                 </p>

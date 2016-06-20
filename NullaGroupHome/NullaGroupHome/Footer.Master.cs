@@ -30,5 +30,10 @@ namespace NullaGroupHome
         {
             LabelAuthor.Text += (author + " ");
         }
+
+        protected void ButtonEdit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Editor.aspx");
+        }
     }
 }

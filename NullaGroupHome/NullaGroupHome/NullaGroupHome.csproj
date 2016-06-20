@@ -86,6 +86,7 @@
     <Content Include="About\Members.aspx" />
     <Content Include="CSS\Icon.css" />
     <Content Include="CSS\Text.css" />
+    <Content Include="Editor.aspx" />
     <Content Include="packages.config" />
     <Content Include="About\Master_About.master" />
     <Content Include="About\Administrator\Introduction\Master_Administrator.master" />
@@ -98,7 +99,6 @@
     <Content Include="Product\CSS\ProductList.css" />
     <Content Include="Product\KeyCraft\1.7.10\Download.aspx" />
     <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.1.3β.jar" />
-    <Content Include="Product\KeyCraft\1.8.9\Download.aspx" />
     <Content Include="Product\KeyCraft\Download.aspx" />
     <Content Include="Product\KeyCraft\Images\Icon.jpg" />
     <Content Include="Product\KeyCraft\Index.aspx" />
@@ -217,6 +217,13 @@
     <Compile Include="About\Members.aspx.designer.cs">
       <DependentUpon>Members.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Editor.aspx.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Editor.aspx.designer.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Footer.Master.cs">
       <DependentUpon>Footer.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -275,13 +282,6 @@
     <Compile Include="Product\KeyCraft\1.7.10\Download.aspx.designer.cs">
       <DependentUpon>Download.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Product\KeyCraft\1.8.9\Download.aspx.cs">
-      <DependentUpon>Download.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Product\KeyCraft\1.8.9\Download.aspx.designer.cs">
-      <DependentUpon>Download.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Product\KeyCraft\Download.aspx.cs">
       <DependentUpon>Download.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -324,7 +324,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Product\KeyCraft\1.8.9\Files\" />
     <Folder Include="Product\KotoriTech\1.7.10\" />
     <Folder Include="Product\StoneArmor\1.7.10\" />
   </ItemGroup>
