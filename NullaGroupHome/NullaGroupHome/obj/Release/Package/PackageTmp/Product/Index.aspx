@@ -11,8 +11,8 @@
         <ul id="ProductList">
             <li><a href="KeyCraft/Index.aspx">KeyCraft</a></li>
             <li><a href="BetterHUD/1.7.10/Index.aspx">Better HUD</a></li>
-            <li><a></a>Stone Armor</li>
-            <li><a>KotoriTech</a></li>
+            <li><a><del>Stone Armor</del></a> 就是一套破烂石头装甲</li>
+            <li><a>KotoriTech（还未完成）</a></li>
         </ul>
     </div>
 </asp:Content>

@@ -1,17 +1,11 @@
 ﻿#AboutMenu {
-    margin-left: 200px;
+    margin-left: 220px;
     margin-top: 50px;
+    width: 200px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
-
-    #AboutMenu ul {
-        background-color: black;
-        float: left;
-    }
-
-    #AboutMenu li {
-        float: left;
-        list-style: none;
-    }
 
     #AboutMenu a {
         font-family: "微软雅黑";
@@ -19,5 +13,8 @@
         margin-left: 0.4cm;
         margin-right: 0.4cm;
         text-decoration: none;
-        color: white;
+    }
+
+    #AboutMenu h3 {
+        font-family: "微软雅黑";
     }

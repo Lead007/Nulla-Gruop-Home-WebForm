@@ -4,9 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="width: 1024px; height: 500px; margin-left: auto; margin-right: auto">
-        <p>当前编辑页：<asp:Label ID="LabelPageName" runat="server"></asp:Label>
+<%--        <p>当前编辑页：<asp:Label ID="LabelPageName" runat="server"></asp:Label>
             <asp:HyperLink ID="HyperLinkPage" runat="server">返回此页</asp:HyperLink></p>
-        <asp:TextBox ID="TextBox1" runat="server" Width="1024px" Height="500px"></asp:TextBox>
-
+        <asp:TextBox ID="TextBox1" runat="server" Width="1024px" Height="500px"></asp:TextBox>--%>
+        本页还在制作中
     </div>
 </asp:Content>

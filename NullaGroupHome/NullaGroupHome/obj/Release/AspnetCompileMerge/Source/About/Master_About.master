@@ -7,15 +7,15 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div style="border-width: 1px; border-radius: 3px; border-color: blue">
+    <div>
         <div id="AboutMenu">
+            <h3>“关于”页导航：</h3>
             <ul>
                 <li><a href="/About/Index.aspx">简 介</a></li>
                 <li><a href="/About/Members.aspx">成 员</a></li>
                 <li style="margin-right: 0.8cm"><a href="/About/Contact.aspx">联系方式</a></li>
             </ul>
         </div>
-        <br />
         <br />
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
