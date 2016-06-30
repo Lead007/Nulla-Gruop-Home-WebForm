@@ -37,6 +37,17 @@
                 text-decoration: none;
             }
     </style>
+    <script>
+        function ShowMember(name) {
+            document.write("<li>");
+            document.write("<a href=\"Administrator/Introduction/" + name + ".aspx\">");
+            document.write("<img src=\"Administrator/Figure/" + name + ".jpg\" />");
+            document.write("<br />");
+            document.write("<p>" + name + "</p>");
+            document.write("</a>");
+            document.write("</li>");
+        }
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="Text">
@@ -48,55 +59,13 @@
     </div>
     <div id="Member">
         <ul>
-            <li>
-                <a href="Administrator/Introduction/小鸟小姐.aspx">
-                    <img src="Administrator/Figure/小鸟小姐.jpg" />
-                    <br />
-                    <p>小鸟小姐</p>
-                </a>
-            </li>
-            <li>
-                <a href="Administrator/Introduction/小大圣.aspx">
-                    <img src="Administrator/Figure/小大圣.jpg" />
-                    <br />
-                    <p>小大圣</p>
-                </a>
-            </li>
-            <li>
-                <a href="Administrator/Introduction/不穿女装的玛秾.aspx">
-                    <img src="Administrator/Figure/不穿女装的玛秾.jpg" />
-                    <br />
-                    <p>不穿女装的玛秾</p>
-                </a>
-            </li>
-            <li>
-                <a href="Administrator/Introduction/女仆长的PAD.aspx">
-                    <img src="Administrator/Figure/女仆长的PAD.jpg" />
-                    <br />
-                    <p>女仆长的PAD</p>
-                </a>
-            </li>
-            <li>
-                <a href="Administrator/Introduction/NavyFlash.aspx">
-                    <img src="Administrator/Figure/NavyFlash.jpg" />
-                    <br />
-                    <p>NavyFlash</p>
-                </a>
-            </li>
-            <li>
-                <a href="Administrator/Introduction/SalimTerryLi.aspx">
-                    <img src="Administrator/Figure/SalimTerryLi.jpg"/>
-                    <br />
-                    <p>SalimTerryLi</p>
-                </a>
-            </li>
-            <li>
-                <a href="Administrator/Introduction/PrimeBlade.aspx">
-                    <img src="/About/Administrator/Figure/PrimeBlade.jpg" />
-                    <br />
-                    <p>PrimeBlade</p>
-                </a>
-            </li>
+            <script> ShowMember("小鸟小姐");</script>
+            <script> ShowMember("小大圣");</script>
+            <script> ShowMember("不穿女装的玛秾");</script>
+            <script> ShowMember("女仆长的PAD");</script>
+            <script> ShowMember("NavyFlash");</script>
+            <script> ShowMember("SalimTerryLi");</script>
+            <script> ShowMember("PrimeBlade");</script>
         </ul>
         共7名。
     </div>

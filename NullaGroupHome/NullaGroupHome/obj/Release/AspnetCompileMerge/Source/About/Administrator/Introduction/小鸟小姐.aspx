@@ -4,5 +4,8 @@
     <link rel="stylesheet" href="/CSS/Text.css" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p></p>
+    <p>组长。重度拖延症。懒癌晚期。。。</p>
+    <br/>
+    <br/>
+    <p>这就是懒惰。</p>
 </asp:Content>

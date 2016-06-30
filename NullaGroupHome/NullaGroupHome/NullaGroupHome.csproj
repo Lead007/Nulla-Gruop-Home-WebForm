@@ -98,7 +98,18 @@
     <Content Include="Product\CSS\Menu.css" />
     <Content Include="Product\CSS\ProductList.css" />
     <Content Include="Product\KeyCraft\1.7.10\Download.aspx" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 1.4.3.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 2.1.2.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 2.4.3.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.1.1.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.1.1γ.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.1.3.jar" />
     <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.1.3β.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.1.3γ.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.4.3 pre.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Demo 3.4.3 pre3.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Pre-1.0β.jar" />
+    <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Pre-1.0.jar" />
     <Content Include="Product\KeyCraft\Download.aspx" />
     <Content Include="Product\KeyCraft\Images\Icon.jpg" />
     <Content Include="Product\KeyCraft\Index.aspx" />
@@ -121,6 +132,7 @@
     <Content Include="Index.aspx" />
     <Content Include="Product\Index.aspx" />
     <Content Include="Product\Scripts\DownloadTable.js" />
+    <Content Include="Product\Scripts\FileShow.js" />
     <Content Include="Scripts\UrlToMember\小大圣.js" />
     <Content Include="Scripts\UrlToMember\小鸟小姐.js" />
     <Content Include="Web.config" />
