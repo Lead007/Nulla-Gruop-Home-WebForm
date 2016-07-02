@@ -12,8 +12,8 @@
             <asp:Image runat="server" Height="100px" ImageUrl="~/Product/KeyCraft/Images/Icon.jpg" Width="181px" ID="ImageIcon" />
         </a>
         <ul>
-            <li><a href="Index.aspx">简 介</a></li>
-            <li><a href="Download.aspx">下 载</a></li>
+            <li><a href="/Product/KeyCraft/Index.aspx">简 介</a></li>
+            <li><a href="/Product/KeyCraft/Download.aspx">下 载</a></li>
             <li><a>图 片</a></li>
             <li style="margin-right: 2cm"><a>Wiki</a></li>
         </ul>

@@ -81,7 +81,7 @@
     <Content Include="About\Administrator\Introduction\小大圣.aspx" />
     <Content Include="About\Administrator\Introduction\不穿女装的玛秾.aspx" />
     <Content Include="About\Contact.aspx" />
-    <Content Include="About\CSS\Menu.css" />
+    <Content Include="CSS\Content.css" />
     <Content Include="About\Index.aspx" />
     <Content Include="About\Members.aspx" />
     <Content Include="CSS\Icon.css" />
@@ -336,6 +336,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="About\CSS\" />
     <Folder Include="Product\KotoriTech\1.7.10\" />
     <Folder Include="Product\StoneArmor\1.7.10\" />
   </ItemGroup>
