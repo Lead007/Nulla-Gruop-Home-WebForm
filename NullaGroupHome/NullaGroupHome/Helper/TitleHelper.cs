@@ -21,7 +21,7 @@ namespace NullaGroupHome.Helper
         /// <param name="page">设置的页面</param>
         public static void SetKeyCraftTitle(this Page page, string title)
         {
-            page.Title = title + Properties.Resources.KeyCraftTitle;
+            page.Title = title + NullaGroupHome.Properties.Resources.KeyCraftTitle;
         }
 
         /// <summary>设置BetterHUD相关页的标题</summary>
@@ -29,7 +29,7 @@ namespace NullaGroupHome.Helper
         /// <param name="page">设置的页面</param>
         public static void SetBetterHUDTitle(this Page page, string title)
         {
-            page.Title = title + Properties.Resources.BetterHUDTitle;
+            page.Title = title + NullaGroupHome.Properties.Resources.BetterHUDTitle;
         }
     }
 }

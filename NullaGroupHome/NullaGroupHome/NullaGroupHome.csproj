@@ -133,8 +133,8 @@
     <Content Include="Product\Index.aspx" />
     <Content Include="Product\Scripts\DownloadTable.js" />
     <Content Include="Product\Scripts\FileShow.js" />
-    <Content Include="Scripts\UrlToMember\小大圣.js" />
-    <Content Include="Scripts\UrlToMember\小鸟小姐.js" />
+    <Content Include="Scripts\GetMembers.js" />
+    <Content Include="Scripts\WriteMember.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
