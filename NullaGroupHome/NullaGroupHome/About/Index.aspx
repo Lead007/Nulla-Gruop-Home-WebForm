@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/About/Master_About.master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="NullaGroupHome.About.Index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script src="/Scripts/WriteMember.js" type="text/javascript"></script>
+    <script src="/Scripts/Members.js" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="Text">
@@ -18,7 +18,7 @@
             <dt>2015年12月13日</dt>
             <dd>BetterHUD发布。</dd>
             <dt>2015年12月14日</dt>
-            <dd>一周年组祭，举办了一次UHC PVP，以群主<script> WriteMemberUri("小鸟小姐");</script>获胜告终。<a href="http://www.bilibili.com/video/av3393075/" target="_blank">视频链接（<script> WriteMemberUri("PrimeBlade");</script>视角）</a></dd>
+            <dd>一周年组祭，举办了一次Minecraft UHC PVP，以群主<script> WriteMemberUri("小鸟小姐");</script>获胜告终。<a href="http://www.bilibili.com/video/av3393075/" target="_blank">视频链接（<script> WriteMemberUri("PrimeBlade");</script>视角）</a></dd>
             <dt>2015年12月22日</dt>
             <dd>组长<script> WriteMemberUri("小鸟小姐");</script>由于个人原因退群，管理员<script> WriteMemberUri("小大圣");</script>升为群主。</dd>
             <dt>2016年1月31日</dt>

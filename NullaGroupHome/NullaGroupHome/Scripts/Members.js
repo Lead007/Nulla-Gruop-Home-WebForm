@@ -9,3 +9,11 @@
     members[6] = "PrimeBlade";
     return members;
 }
+
+function WriteMemberUri(name) {
+    document.write("<a href=\"/About/Administrator/Introduction/" + name + ".aspx\">" + name + "</a>");
+}
+
+function WriteMemberUriByIndex(index) {
+    WriteMemberUri(GetMembers()[index]);
+}

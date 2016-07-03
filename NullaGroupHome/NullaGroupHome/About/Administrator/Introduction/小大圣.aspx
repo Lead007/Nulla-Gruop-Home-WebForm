@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/About/Administrator/Introduction/Master_Administrator2.master" AutoEventWireup="true" CodeBehind="小大圣.aspx.cs" Inherits="NullaGroupHome.About.Administrator.Introduction.Shedarshian" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script src="/Scripts/WriteMember.js" type="text/javascript"></script>
+    <script src="/Scripts/Members.js" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>能力：只能混通L程度的能力<br />种族：古明地觉的宠物（x1种族是宠物真的合适吗啊喂（吐槽））<br />主要活动场所：地灵殿<br />人类友好度：较低<br />危险度：不明</p>

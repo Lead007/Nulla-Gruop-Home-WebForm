@@ -133,8 +133,7 @@
     <Content Include="Product\Index.aspx" />
     <Content Include="Product\Scripts\DownloadTable.js" />
     <Content Include="Product\Scripts\FileShow.js" />
-    <Content Include="Scripts\GetMembers.js" />
-    <Content Include="Scripts\WriteMember.js" />
+    <Content Include="Scripts\Members.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -336,7 +335,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="About\CSS\" />
     <Folder Include="Product\KotoriTech\1.7.10\" />
     <Folder Include="Product\StoneArmor\1.7.10\" />
   </ItemGroup>

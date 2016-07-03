@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Product/BetterHUD/1.7.10/Master_BetterHUD.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="NullaGroupHome.Product.BetterHUD._1._7._10.Index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="/CSS/Text.css" type="text/css"/>
-    <script src="/Scripts/WriteMember.js" type="text/javascript"></script>
+    <script src="/Scripts/Members.js" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="Text">

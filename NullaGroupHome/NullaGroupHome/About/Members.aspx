@@ -37,7 +37,7 @@
                 text-decoration: none;
             }
     </style>
-    <script src="/Scripts/GetMembers.js" type="text/javascript"></script>
+    <script src="/Scripts/Members.js" type="text/javascript"></script>
     <script>
         function ShowMembers() {
             var members = GetMembers();

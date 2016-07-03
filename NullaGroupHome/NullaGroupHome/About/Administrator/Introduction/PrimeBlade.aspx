@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/About/Administrator/Introduction/Master_Administrator2.master" AutoEventWireup="true" CodeBehind="PrimeBlade.aspx.cs" Inherits="NullaGroupHome.About.Administrator.Introduction.PrimeBlade" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script src="/Scripts/WriteMember.js" type="text/javascript"></script>
+    <script src="/Scripts/Members.js" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>作为组长<script> WriteMemberUri("小鸟小姐");</script>的同学，PrimeBlade是最早一批加入Nulla小组的管理者（然而并不管开发Mod）。</p>
