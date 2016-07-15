@@ -1,1 +1,0 @@
-﻿document.write("<a href=\"/About/Administrator/Introduction/小鸟小姐.aspx\">小鸟小姐</a>")

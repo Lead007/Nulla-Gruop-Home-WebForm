@@ -111,7 +111,9 @@
     <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Pre-1.0β.jar" />
     <Content Include="Product\KeyCraft\1.7.10\Files\KeyCraft - Pre-1.0.jar" />
     <Content Include="Product\KeyCraft\Download.aspx" />
+    <Content Include="Product\KeyCraft\Images.aspx" />
     <Content Include="Product\KeyCraft\Images\Icon.jpg" />
+    <Content Include="Product\KeyCraft\Images\Images\KeyCraft_20160715_PrimeBlade_技能学习的初代GUI.jpg" />
     <Content Include="Product\KeyCraft\Index.aspx" />
     <Content Include="Footer.Master" />
     <Content Include="Master.master" />
@@ -242,6 +244,8 @@
     <Compile Include="Footer.Master.designer.cs">
       <DependentUpon>Footer.Master</DependentUpon>
     </Compile>
+    <Compile Include="Helper\DateTimeHelper.cs" />
+    <Compile Include="Helper\FileHelper.cs" />
     <Compile Include="Helper\MasterHelper.cs" />
     <Compile Include="Helper\TitleHelper.cs" />
     <Compile Include="Index.aspx.cs">
@@ -299,6 +303,13 @@
     </Compile>
     <Compile Include="Product\KeyCraft\Download.aspx.designer.cs">
       <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product\KeyCraft\Images.aspx.cs">
+      <DependentUpon>Images.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product\KeyCraft\Images.aspx.designer.cs">
+      <DependentUpon>Images.aspx</DependentUpon>
     </Compile>
     <Compile Include="Product\KeyCraft\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>

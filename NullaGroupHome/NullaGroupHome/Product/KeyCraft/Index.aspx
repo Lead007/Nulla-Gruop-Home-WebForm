@@ -7,9 +7,10 @@
     <div id="Content">
         <h3>KeyCraft主页导航</h3>
         <ul>
-            <li><a href="#简介">KeyCraft简介</a></li>
-            <li><a href="#下载">KeyCraft下载</a></li>
-            <li><a href="#Wiki">KeyCraft Wiki</a></li>
+            <li><a href="#简介">简介</a></li>
+            <li><a href="#下载">下载</a></li>
+            <li><a href="#图库">图库</a></li>
+            <li><a href="#Wiki">Wiki</a></li>
         </ul>
     </div>
     <div id="Text">
@@ -20,6 +21,9 @@
         <h3 id="下载">KeyCraft下载</h3>
         <hr/>
         <p><a href="Download.aspx">&lt;&lt;去往下载页</a></p>
+        <h3 id="图库">KeyCraft图库</h3>
+        <hr/>
+        <p><a href="Images.aspx">&lt;&lt;去往图库页</a></p>
         <h3 id="Wiki">KeyCraft Wiki</h3>
         <hr/>
         <p>我们为玩家编写了关于KeyCraft的各个物品、特性的详细介绍<del>（然而在开发者的拖延症笼罩之下还没写）</del>。<a>&lt;&lt;前往访问</a></p>

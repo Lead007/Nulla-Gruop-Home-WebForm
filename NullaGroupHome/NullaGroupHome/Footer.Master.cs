@@ -31,6 +31,13 @@ namespace NullaGroupHome
             LabelAuthor.Text += (author + " ");
         }
 
+        /// <summary>添加作者</summary>
+        /// <param name="author">作者</param>
+        public void AddAuthor(string author)
+        {
+            LabelAuthor.Text += (author + " ");
+        }
+
         protected void ButtonEdit_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Editor.aspx");

@@ -6,6 +6,7 @@ using System.Web.UI;
 
 namespace NullaGroupHome.Helper
 {
+    /// <summary>和母版处理有关的函数的静态类</summary>
     public static class MasterHelper
     {
         /// <summary>获取类型为指定类型的母版页</summary>
@@ -23,6 +24,9 @@ namespace NullaGroupHome.Helper
             return master as T;
         }
 
+        /// <summary>获取当前页面的文件名</summary>
+        /// <param name="master">母版页</param>
+        /// <returns>当前页的文件名</returns>
         public static string CurrentPageName(this MasterPage master)
         {
             var url = master.Request.FilePath;

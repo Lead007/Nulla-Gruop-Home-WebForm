@@ -6,6 +6,7 @@ using System.Web.UI;
 
 namespace NullaGroupHome.Helper
 {
+    /// <summary>和标题处理有关的函数的静态类</summary>
     public static class TitleHelper
     {
         /// <summary>设置标题</summary>

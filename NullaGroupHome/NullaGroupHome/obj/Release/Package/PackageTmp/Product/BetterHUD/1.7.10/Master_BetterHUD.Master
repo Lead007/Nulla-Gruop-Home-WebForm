@@ -12,8 +12,8 @@
             <asp:Image runat="server" Height="100px" ImageUrl="~/Product/BetterHUD/1.7.10/Images/Icon.jpg" Width="181px" ID="ImageIcon" />
         </a>
         <ul>
-            <li><a href="Index.aspx">简 介</a></li>
-            <li><a href="Download.aspx">下 载</a></li>
+            <li><a href="/Product/BetterHUD/1.7.10/Index.aspx">简 介</a></li>
+            <li><a href="/Product/BetterHUD/1.7.10/Download.aspx">下 载</a></li>
             <li style="margin-right: 2cm"><a>图 片</a></li>
         </ul>
     </div>

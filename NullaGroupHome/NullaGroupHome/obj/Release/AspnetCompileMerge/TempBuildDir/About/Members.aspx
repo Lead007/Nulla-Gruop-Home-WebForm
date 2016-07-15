@@ -37,15 +37,20 @@
                 text-decoration: none;
             }
     </style>
+    <script src="/Scripts/Members.js" type="text/javascript"></script>
     <script>
-        function ShowMember(name) {
-            document.write("<li>");
-            document.write("<a href=\"Administrator/Introduction/" + name + ".aspx\">");
-            document.write("<img src=\"Administrator/Figure/" + name + ".jpg\" />");
-            document.write("<br />");
-            document.write("<p>" + name + "</p>");
-            document.write("</a>");
-            document.write("</li>");
+        function ShowMembers() {
+            var members = GetMembers();
+            for (var i = 0; i < members.length; i++) {
+                var name = members[i];
+                document.write("<li>");
+                document.write("<a href=\"Administrator/Introduction/" + name + ".aspx\">");
+                document.write("<img src=\"Administrator/Figure/" + name + ".jpg\" />");
+                document.write("<br />");
+                document.write("<p>" + name + (name === members[0] ? "（组长）" : "") + "</p>");
+                document.write("</a>");
+                document.write("</li>");
+            }
         }
     </script>
 </asp:Content>
@@ -59,13 +64,7 @@
     </div>
     <div id="Member">
         <ul>
-            <script> ShowMember("小鸟小姐");</script>
-            <script> ShowMember("小大圣");</script>
-            <script> ShowMember("不穿女装的玛秾");</script>
-            <script> ShowMember("女仆长的PAD");</script>
-            <script> ShowMember("NavyFlash");</script>
-            <script> ShowMember("SalimTerryLi");</script>
-            <script> ShowMember("PrimeBlade");</script>
+            <script>ShowMembers();</script>
         </ul>
         共7名。
     </div>
