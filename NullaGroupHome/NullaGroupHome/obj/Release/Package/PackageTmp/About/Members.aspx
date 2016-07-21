@@ -38,6 +38,7 @@
             }
     </style>
     <script src="/Scripts/Members.js" type="text/javascript"></script>
+    <script src="/Scripts/ConstFields.js" type="text/javascript"></script>
     <script>
         function ShowMembers() {
             var members = GetMembers();
@@ -58,7 +59,7 @@
     <div id="Text">
         <h3>成员</h3>
         <hr />
-        <p>现在群内已经有了68名成员。由于成员变动较为频繁，在此不更新，请自行加群查看。</p>
+        <p>现在群内已经有了<script> MembersCount();</script>名成员。由于成员变动较为频繁，在此不更新，请自行加群查看。</p>
         <h4>管理员</h4>
         <hr />
     </div>

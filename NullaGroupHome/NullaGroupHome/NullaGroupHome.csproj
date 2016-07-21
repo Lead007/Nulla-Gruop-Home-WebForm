@@ -135,6 +135,7 @@
     <Content Include="Product\Index.aspx" />
     <Content Include="Product\Scripts\DownloadTable.js" />
     <Content Include="Product\Scripts\FileShow.js" />
+    <Content Include="Scripts\ConstFields.js" />
     <Content Include="Scripts\Members.js" />
     <Content Include="Web.config" />
   </ItemGroup>
