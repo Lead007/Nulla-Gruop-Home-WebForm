@@ -121,7 +121,7 @@
     <Content Include="Product\Master_Product.Master" />
     <Content Include="Product\BetterHUD\1.7.10\Master_BetterHUD.Master" />
     <Content Include="About\Administrator\Introduction\Master_Administrator2.master" />
-    <None Include="Properties\PublishProfiles\config.pubxml" />
+    <None Include="Properties\PublishProfiles\WebConfig.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
